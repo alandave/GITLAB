@@ -42,8 +42,8 @@ void main()
       printf ("Good Evening, "); 
     printf("%s. Time is %02d:%02d\n", Name, hours,
                  minutes);
-    printf("Continue (Y/N)?"); scanf("%c", &answer); 
+    printf("Go on? (Y/N)?"); scanf("%c", &answer); 
   } while (answer == 'Y'); 
-  printf("Good Bye!"); 
+  printf("Thank You!"); 
   scanf("%c", &answer); 
 }
