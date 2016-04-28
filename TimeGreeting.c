@@ -42,8 +42,9 @@ void main()
       printf ("Good Evening, "); 
     printf("%s. Time is %02d:%02d\n", Name, hours,
                  minutes);
-    printf("Continue (Yes/No)?”); scanf("%c", &answer); 
-  } while (answer == 'Yes’); 
-  printf("Good Bye!"); 
+
+  printf("Go on? (Yes/No)?”); scanf("%c", &answer); 
+  } while (answer == 'Yes'); 
+  printf("Thank You!"); 
   scanf("%c", &answer); 
 }
